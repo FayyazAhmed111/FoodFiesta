@@ -1,0 +1,46 @@
+.card {
+    position: relative;
+    display: flex;
+    width: 300px;
+    background-color: bisque;
+    padding: 15px;
+    height: 175px;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    position: absolute;
+    left: -80px;
+    bottom: -25px;
+
+}
+
+.card-head .burger-desc {
+    display: flex;
+    width: 100%;
+    max-width: 210px;
+    margin-left: auto;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.price {
+    display: flex;
+    width: 100%;
+    max-width: 70px;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.card-head h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

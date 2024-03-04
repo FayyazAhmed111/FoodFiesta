@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bg-img {
+    background-image: url('/food-fiest-bg.png');
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+}
+
+.circle {
+    position: absolute;
+    top: 25%;
+    background-color: #FF8024;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    opacity: .1;
+    z-index: -1;
+    animation: pulse 3s infinite;
+
+}
+
+.circle:nth-child(even) {
+    animation-delay: 1s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.order-btn {
+    filter: drop-shadow(3px 3px 11px #ad680d);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+
+@media (max-width: 768px) {
+    .circle {
+        top: 0;
+        width: 120px;
+        height: 120px;
+        left: 50px;
+    }
+
+    .order-btn {
+
+        font-size: 16px;
+
+    }
+
+    .bg-img {
+        padding: 70px 0;
+    }
+
+}

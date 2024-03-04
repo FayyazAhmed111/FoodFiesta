@@ -1,0 +1,84 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Beef Burger",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 9.99,
+            "category": "burger",
+            "image": "/beef-burger.png"
+        },
+        {
+            "id": 2,
+            "name": "Crispy Chicken Burger",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 10.99,
+            "category": "burger",
+            "image": "/crispy-chicken-burger.png"
+        },
+        {
+            "id": 3,
+            "name": "Grilled Chicken Burger",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 8.99,
+            "category": "burger",
+            "image": "/grilled-chicken-burger.png"
+        },
+        {
+            "id": 4,
+            "name": "Sausage Pizza",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 12.99,
+            "category": "pizza",
+            "image": "/sausage-pizza.png"
+        },
+        {
+            "id": 5,
+            "name": "Olive Pizza",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 11.99,
+            "category": "pizza",
+            "image": "/olive-pizza.png"
+        },
+        {
+            "id": 6,
+            "name": "Chicken Mashroom Pizza",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 13.99,
+            "category": "pizza",
+            "image": "/mashroom-pizza.png"
+        },
+        {
+            "id": 7,
+            "name": "Fried Chicken",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 7.99,
+            "category": "chicken",
+            "image": "/fried-chicken-with-fries.png"
+        },
+        {
+            "id": 8,
+            "name": "Chocolate CupCake",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 6.99,
+            "category": "dessert",
+            "image": "/chocolate-cupcake.png"
+        },
+        {
+            "id": 9,
+            "name": "Blue Cocktail",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 1.99,
+            "category": "drink",
+            "image": "/speacial-blue-cocktail.png"
+        },
+        {
+            "id": 10,
+            "name": "Iced Tea",
+            "description": "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+            "price": 1.99,
+            "category": "drink",
+            "image": "/speacial-iced-tea.png"
+        }
+    ]
+}
